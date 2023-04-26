@@ -1,0 +1,46 @@
+:root {
+	--color1: #e66465;
+	--color2: #9198e5;
+	--gradientDirection: to right;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(var(--gradientDirection), var(--color1), var(--color2));
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 9px;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #333;
+}
+
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.color-pickers, .direction-picker, #random {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+input {
+	margin: 10px 5px;
+}
+
+.values {
+	text-align: center;
+}
